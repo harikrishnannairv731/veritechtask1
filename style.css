@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(240, 222, 236);
+    color: #333;
+    padding: 20px;
+    border: #000;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Team section styles */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-size-adjust: 5px;
+}
+
+/* Member card styles */
+
+.member{
+    background: white;
+    border: 5px ;
+    
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    object-fit: cover;
+    
+    
+}
+
+
+.discription{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.subheading{
+    text-align: center;
+
+}
+.team1{
+    text-align: center;
+}
+.team2{
+    text-align: center;
+}
+.team3{
+    text-align: center;
+}
+
+.header{
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background: hsl(309, 86%, 32%);
+    color: #dfe9ed;
+    font-size: 20px;
+    height: 5%;
+    
+}
